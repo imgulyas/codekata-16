@@ -20,3 +20,14 @@ Exploration and possibly solutions for [kata 16](http://codekata.com/kata/kata16
 + a rule repository is needed (could be a git repo in the beginning)
 + the system should get notified when the rules change
 + the ruleset should be versioned
+
+
+#### TODO
+
+add domain tests
+
+add services for:
++ publishing/handling business tasks
++ acquiring the current ruleset
++ acquiring the event stream of payments (gRPC?)
+
