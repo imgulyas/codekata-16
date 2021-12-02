@@ -1,4 +1,3 @@
 package domain
 
-final case class Ruleset(ruleset: Set[PaymentRule],
-                         version: Int)
+final case class Ruleset(ruleset: Set[BusinessRule], version: Int)
